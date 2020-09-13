@@ -6,13 +6,12 @@ import ContatoItem from './components/ContatoItem';
 import ContatoInput from './components/ContatoInput';
 
 /* 
-Crie uma aplicação React Native com Expo que permita o cadastro e listagem de
-contatos. Contatos possuem nome e telefone. Ela precisará de dois campos para
-inserção de dados e um botão para fazer a inserção. Use um FlatList, como visto em
-aula, para exibir os dados de contato. Garanta que cada contato possui identificadaor
-único na lista. A lista de identificadores deve começar de 10 e somente números pares
-positivos podem ser utilizados como identificadores. Seja criativo, use “CSS” para
-descrever como se dá a exibição de cada item na lista. 
+1. Refatore a sua aplicação. Crie, ao menos, dois componentes que serão utilizados
+pelo componente principal.
+2. Torne os itens da lista clicáveis.
+3. Apague um contato da lista quando um toque longo (diferente da aula, em que
+decidimos apagar com um toque simples) sobre ele acontecer. Descubra a propriedade
+de TouchableOpacity que viabiliza identificar esse evento. 
 */
 
 export default function App() {

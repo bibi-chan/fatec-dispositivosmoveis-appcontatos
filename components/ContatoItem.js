@@ -8,7 +8,7 @@ import {
 
 const ContatoItem = (props) => {
   return (
-    <TouchableOpacity onPress={() => props.onRemoverContato(props.i)}>
+    <TouchableOpacity onLongPress={() => props.onRemoverContato(props.i)}>
       <View style={estilos.itemNaLista}>
         <Text style={estilos.texto}>ID: {props.i}</Text>
         <Text style={estilos.texto}>Nome: {props.contato.nome}</Text>
